@@ -96,7 +96,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#sidebar {
+    height:100%;
+    width:25%;
+    position:fixed;
+    background-color: #ac4142;
+    color:white;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    padding: 40px 40px 40px 40px;
+}
 
+#sidebar h1 {
+
+}
+
+#sidebar ul {
+    list-style-type:none;
+}
+
+#sidebar a {
+    color:white;
+    text-decoration-line:none;
+}
+
+#main {
+    margin-left: 35%;
+}
 
 
 
