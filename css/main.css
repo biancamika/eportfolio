@@ -112,36 +112,66 @@ textarea {
 #sidebar h1 {
     font-family: 'Crimson Text', serif;
     font-weight:bolder;
-    font-size: 300%;
+    font-size: 305%;
     margin-bottom:0;
 }
 
 #sidebar h2 {
     font-family: 'PT Sans', sans-serif;
+    font-weight:normal;
     margin-top:10px;
+    font-size: 170%;
 }
 
 #sidebar h2 span {
-    text-decoration-line:underline;
+    font-weight:bold;
 }
 
 #sidebar ul {
     font-family: 'PT Sans', sans-serif;
     list-style-type:none;
+    padding-left:0;
 }
 
 #sidebar a {
     color:white;
+    font-size:160%;
     text-decoration-line:none;
+    font-size: 
+}
+
+#sidebar a:hover {
+    text-decoration-line:underline;
 }
 
 #main {
     margin-left: 35%;
+    margin-right:9%;
     font-family: 'PT Sans', sans-serif;
 }
 
 #main h1 {
     font-family: 'Crimson Text', serif;
+    font-size: 300%;
+}
+
+#main h2 {
+    font-size:200%;
+}
+
+#main h3 {
+    font-size: 150%;
+}
+
+#main p {
+    font-size: 140%;
+    justify-content:left;
+}
+
+#me {
+    width:45%;
+    margin-right: 30px;
+    float:left;
 }
 
 
