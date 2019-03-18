@@ -110,10 +110,23 @@ textarea {
 }
 
 #sidebar h1 {
+    font-family: 'Crimson Text', serif;
+    font-weight:bolder;
+    font-size: 300%;
+    margin-bottom:0;
+}
 
+#sidebar h2 {
+    font-family: 'PT Sans', sans-serif;
+    margin-top:10px;
+}
+
+#sidebar h2 span {
+    text-decoration-line:underline;
 }
 
 #sidebar ul {
+    font-family: 'PT Sans', sans-serif;
     list-style-type:none;
 }
 
@@ -124,6 +137,11 @@ textarea {
 
 #main {
     margin-left: 35%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#main h1 {
+    font-family: 'Crimson Text', serif;
 }
 
 
